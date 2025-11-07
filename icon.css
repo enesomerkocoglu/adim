@@ -122,8 +122,6 @@
 
 .kayıt input::placeholder {
     font-size: 1.6rem;
-    position: absolute;
-    left: 2rem;
     color: var(--gölge);
 }
 

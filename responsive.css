@@ -2375,7 +2375,7 @@
     }
 
     .box1back label {
-        margin: 2rem .4rem;
+        margin: 2rem .3rem;
     }
 
     #hedef {
@@ -2403,6 +2403,16 @@
 
     .bar {
         width: 20rem;
+    }
+    .barbar{
+        top:5.2rem;
+    }
+
+    .barbar2{
+        top:10.1rem;
+    }
+    .barbar3{
+        top:15rem;
     }
 
     .yuzde1 {
@@ -2473,7 +2483,7 @@
 
     .yuzde45 {
         display: inline-block;
-        font-size: 1.6rem;
+        font-size: 1.3rem;
         width: auto;
     }
 
@@ -2512,9 +2522,9 @@
 
     .box3back .png .pngyazı {
         font-size: 4rem;
-        left: 7.6rem;
+        left: 7.4rem;
         font-weight: 700;
-        top: 16.3rem;
+        top: 17rem;
     }
 
 }
