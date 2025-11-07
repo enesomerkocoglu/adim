@@ -2617,7 +2617,7 @@
     .kayıt {
         height: 28rem;
         width: 35rem;
-        top: 8rem;
+        top: 5rem;
         background-position: 1rem 1rem;
         background-size: 7rem
     }
@@ -2646,7 +2646,7 @@
     #label {
         font-size: 2rem;
         padding: .4rem 3rem;
-        top: 30rem;
+        top: 27rem;
         left: 44%;
     }
 
@@ -2665,7 +2665,18 @@
         margin-top: 8rem;
         margin-bottom: 3rem;
     }
-    
+    .notp {
+    font-size: 1.6rem;
+    position: absolute;
+    right: 3.5rem;
+    top: 22rem;
+    color: var(--ana-renk);
+    display: inline-block;
+    z-index: 98;
+    opacity: 0;
+    transition: 300ms opacity 650ms;
+    visibility: hidden;
+}
 }
 
 @media (max-height:412px) {
