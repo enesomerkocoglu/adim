@@ -1,0 +1,351 @@
+/*icon başlangıç*/
+.flex1 #acc {
+    font-size: 3rem;
+    color: var(--ikinci-renk);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 2.5rem;
+    top: 1.6rem;
+    cursor: pointer;
+    transition: 300ms color;
+}
+
+.flex1 #men {
+    font-size: 3rem;
+    color: var(--ikinci-renk);
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 2.5rem;
+    top: 1.6rem;
+    cursor: pointer;
+    transition: 300ms color;
+    display: none;
+}
+
+.flex1 #not {
+    font-size: 3rem;
+    color: var(--ikinci-renk);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 7rem;
+    top: 1.6rem;
+    cursor: pointer;
+    transition: 300ms color;
+}
+
+/*icon bitiş*/
+
+/*icon inputları */
+.flex1 input {
+    visibility: hidden;
+}
+
+/*icon checkbox başlangıç*/
+.flex1 .profil3:checked+label #men {
+    color: var(--ana-renk);
+}
+
+.flex1 .profil2:checked+label #not {
+    color: var(--ana-renk);
+    display: flex;
+}
+
+.flex1 .profil:checked+label #acc {
+    color: var(--ana-renk);
+}
+
+/*icon checkbox bitiş*/
+/*icon animasyon başlangıç*/
+.flex1 #men:hover {
+    color: var(--ana-renk);
+}
+
+.flex1 #not:hover {
+    color: var(--ana-renk);
+}
+
+.flex1 #acc:hover {
+    color: var(--ana-renk);
+}
+
+/*icon animasyon bitiş*/
+
+/*kayıt başlangıç*/
+.kayıt {
+    background-color: var(--beyaz);
+    height: 60rem;
+    width: 70rem;
+    display: inline-block;
+    position: absolute;
+    transform: translate(-50%);
+    top: 19rem;
+    left: 50%;
+    border-radius: 1rem;
+    border: 1px solid var(--ikinci-renk);
+    box-shadow: 0 0 5px var(--ikinci-renk);
+    background-image: url(logo1.png);
+    background-repeat: no-repeat;
+    background-position: 2rem 2.5rem;
+    display: none;
+}
+
+.kayıt input {
+    visibility: visible;
+    height: 5.5rem;
+    width: 45rem;
+    background-color: transparent;
+    border: 1px solid var(--gölge);
+    border-radius: 1rem;
+    margin: 0 12rem;
+    display: none;
+}
+
+.kayıt .text {
+    margin-top: 15rem;
+    margin-bottom: 2rem;
+}
+
+.kayıt .email {
+    margin-bottom: 2rem;
+    transition: 500ms ease margin;
+}
+
+.kayıt .pass {
+    transition: 500ms ease margin;
+}
+
+.kayıt input::placeholder {
+    font-size: 1.6rem;
+    position: absolute;
+    left: 2rem;
+    color: var(--gölge);
+}
+
+.kayıt h2 {
+    color: var(--ana-renk);
+    font-size: 3rem;
+    position: absolute;
+    display: inline-block;
+    top: 7rem;
+    left: 38%;
+    display: none;
+}
+
+#label {
+    display: inline-block;
+    position: absolute;
+    border-radius: 1rem;
+    background-color: var(--ana-renk);
+    font-size: 2rem;
+    padding: 1.3rem 3rem;
+    color: var(--beyaz);
+    cursor: pointer;
+    top: 57.5rem;
+    left: 46.5%;
+    transition: 200ms ease background-color;
+    z-index: 98;
+    display: none;
+}
+
+.kayıt label {
+    font-size: 1.4rem;
+    position: absolute;
+    display: inline-block;
+    z-index: 98;
+    top: 45rem;
+    left: 39.3rem;
+    color: var(--ana-renk);
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 200ms ease color;
+}
+
+/*kayıt container başlangıç*/
+
+/*kayıt animasyon başlangıç*/
+#label:hover {
+    background-color: var(--üçüncü-renk);
+}
+
+/*kayıt animasyon bitiş*/
+
+/*kayıt checkbox başlangıç*/
+.flex1 .profil:checked~.kayıt {
+    display: inline-block;
+}
+
+.flex1 .profil:checked~#label {
+    display: inline-block;
+}
+
+.flex1 .profil:checked~.kayıt h2 {
+    display: inline-block;
+}
+
+.flex1 .profil:checked~.kayıt input {
+    display: inline-block;
+}
+
+/*kayıt checkbox bitiş*/
+/*giriş başlagıç*/
+
+.kayıt span {
+    font-size: 1.4rem;
+    position: absolute;
+    top: 45rem;
+    z-index: 98;
+    display: inline-block;
+    left: 23rem;
+}
+
+/*giriş animasyon*/
+.kayıt label:hover {
+    color: var(--üçüncü-renk);
+}
+
+/*giriş checkbox başlangıç*/
+#giris:checked~.text {
+    display: none;
+}
+
+#giris:checked~.email {
+    margin-top: 17rem;
+    margin-bottom: 4rem;
+}
+
+#giris {
+    display: none;
+}
+
+/*giriş checkbox bitiş*/
+
+/*giriş  container bitiş*/
+
+/*kayıt ve giriş container bitiş*/
+
+/*bildirimler container başlangıç*/
+.flex1 .not {
+    position: absolute;
+    height: 93.6vh;
+    width: 0;
+    top: 6.1rem;
+    background-color: var(--beyaz);
+    z-index: 97;
+    right: 0;
+    border: none;
+    display: inline;
+    transition: 500ms ease width;
+}
+
+.noth {
+    font-size: 3rem;
+    display: inline;
+    opacity: 0;
+    position: absolute;
+    right: 13rem;
+    top: 7rem;
+    z-index: 98;
+    transition: 200ms opacity 250ms;
+    visibility: hidden;
+}
+
+.notp {
+    font-size: 1.6rem;
+    position: absolute;
+    right: 7.5rem;
+    top: 40rem;
+    color: var(--ana-renk);
+    display: inline-block;
+    z-index: 98;
+    opacity: 0;
+    transition: 300ms opacity 650ms;
+    visibility: hidden;
+}
+
+/*bildirim checkbox başlangıç*/
+.flex1 .profil2:checked~.not {
+    width: 30rem;
+    border-width: 0 0 0 2px;
+    border-style: solid;
+    border-color: var(--ana-renk);
+}
+
+.flex1 .profil2:checked~.noth {
+    opacity: 1;
+    visibility: visible;
+}
+
+.flex1 .profil2:checked~.notp {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*bildirim checkbox bitiş*/
+
+/*bildirimler container bitiş*/
+.menü {
+    height: 35.6rem;
+    width: 0;
+    background-color: var(--beyaz);
+    position: absolute;
+    right: 0;
+    top: 4.3rem;
+    transition: 500ms ease width;
+    border-radius: 20px 0 0 20px;
+}
+
+.menü1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--ana-renk);
+    position: absolute;
+    top: 8rem;
+    right: 5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.menü2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--ana-renk);
+    position: absolute;
+    top: 14.3rem;
+    right: 9.8rem;
+    cursor: pointer;
+    display: none;
+}
+
+.flex1 .profil3:checked~.menü {
+    width: 15rem;
+}
+
+.flex1 .profil3:checked~.menü1 {
+    display: inline;
+}
+
+.flex1 .profil3:checked~.menü2 {
+    display: inline;
+}
+
+.flex1 .profil2:checked~.menü {
+    width: 0;
+}
+
+.flex1 .profil:checked~.menü {
+    width: 0;
+}
+
+.flex1 .profil3:checked~.menü {
+    width: 15rem;
+}
+
+.flex1 .profil3:checked~.flex1 #not {
+    visibility: visible;
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adım+</title>
+    <link rel="stylesheet" href="main.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+
+<body>
+    <!--header başlangıç-->
+    <header>
+        <div class="flex">
+            <div class="flex1">
+                <h1 class="logo">Adım</h1>
+                <h1 class="artı">+</h1>
+                <nav>
+                    <ul>
+                        <li>
+                            <input class="hedefler" type="checkbox" id="hedefler">
+                            <label class="hedefler1" for="hedefler">Hedefler</label>
+                            <div class="kutuh">
+                                <h2>Hedefler</h2>
+                                <p>5 / 12 hedef tamamlandı.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <input class="ilerleme" type="checkbox" id="ilerleme">
+                            <label class="ilerleme1" for="ilerleme">İlerleme</label>
+                             <div class="kutui">
+                                <h2>Günlük İlerleme</h2>
+                                <div class="ilerlemeb"></div>
+                                <div class="ilerlemeb1"></div>
+                                <span class="ilerlemeb2">%57</span>
+                            </div>
+                        </li>
+                        <li>
+                            <input class="seriler" type="checkbox" id="seriler">
+                            <label class="seriler1" for="seriler">Seriler</label>
+                             <div class="kutus">
+                                <h2>Seriler</h2>
+                                <p>5 günlük seri devam ediyor.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!--header bitiş-->
+                <!--icon başlangıç-->
+                <input class="profil" type="checkbox" id="account_circle">
+                <label for="account_circle">
+                    <i id="acc" class="material-symbols-outlined">account_circle</i>
+                </label>
+                <input class="profil2" type="checkbox" id="notifications">
+                <label for="notifications">
+                    <i id="not" class="material-symbols-outlined">notifications</i>
+                </label>
+                <input class="profil3" type="checkbox" id="menu">
+                <label for="menu">
+                    <i id="men" class="material-symbols-outlined">menu</i>
+                </label>
+                <!--icon bitiş-->
+                <div class="menü"></div>
+                <!--kayıt başlangıç-->
+                <label id="label" for="account_circle">Başla</label>
+                <div class="kayıt">
+                    <form action="index.html">
+                        <input type="checkbox" id="giris">
+                        <label for="giris">Giriş Yap</label>
+                        <h2>Kayıt Olun</h2>
+                        <input class="text" type="text" placeholder="Kullanıcı Adı" required>
+                        <input class="email" type="email" placeholder="E-posta" required>
+                        <input class="pass" type="password" placeholder="Şifre" required>
+                        <span>Zaten bir hesabın var mı? </span>
+                    </form>
+                </div>
+                <!--kayıt bitiş-->
+                <!--bildirimler başlangıç-->
+                <div class="not"></div>
+                <h2 class="noth">Bildirimler</h2>
+                <p class="notp">Henüz bir bildirim yok.</p>
+                <!--bildirimler bitiş-->
+                <!--menü başlangıç-->
+                <label class="menü1" for="notifications">Bildirimler</label>
+                <label class="menü2" for="account_circle">Profil</label>
+                <!--menü bitiş-->
+            </div>
+        </div>
+    </header>
+    <!--header bitiş-->
+    <!--sol ve sağ bölümler başlangıç-->
+    <div class="container">
+        <!--sol bölüm başlangıç-->
+        <div class="sol">
+            <h1 class="h1">Başarıya Giden Yolu</h1>
+            <h2 class="h2">Şekillendir</h2>
+            <p>Her gün bir adım ileri gitmek artık çok kolay.</p>
+        </div>
+        <!--sol bölüm bitiş-->
+        <!--sağ bölüm başlangıç-->
+        <div class="sag">
+            <div class="container2">
+                <input class="görev1" type="checkbox" id="checkbox">
+                <!--kutu1 başlangıç-->
+                <div class="box1">
+                    <h1 class="boxlogo">Adım</h1>
+                    <h1 class="boxlogo1">+</h1>
+                </div>
+                <!--kutu1 bitiş-->
+                <!--kutu1 back başlangıç-->
+                <div class="box1back">
+                    <input class="days" type="checkbox" id="Pzt" name="days">
+                    <label for="Pzt">Pzt</label>
+                    <input class="days" type="checkbox" id="Sal" name="days">
+                    <label for="Sal">Sal</label>
+                    <input class="days" type="checkbox" id="Çar" name="days">
+                    <label for="Çar">Çar</label>
+                    <input class="days" type="checkbox" id="Per" name="days">
+                    <label for="Per">Per</label>
+                    <input class="days" type="checkbox" id="Cum" name="days">
+                    <label for="Cum">Cum</label>
+                    <input class="days" type="checkbox" id="Cmt" name="days">
+                    <label class="son" for="Cmt">Cmt</label>
+                    <input class="days" type="checkbox" id="Paz" name="days">
+                    <label class="son" for="Paz">Paz</label>
+                    <input class="hedef" type="text" id="hedef" name="hedef" placeholder="1. Hedefinizi Girin...">
+                    <input class="hedef" type="text" id="hedef2" name="hedef" placeholder="2. Hedefinizi Girin...">
+                    <input class="hedef" type="text" id="hedef3" name="hedef" placeholder="3. Hedefinizi Girin...">
+                    <span class="add">+</span>
+                    <button class="kaydet">Kaydet</button>
+                </div>
+                <!--kutu1 back  bitiş-->
+                <!--kutu2 başlangıç-->
+                <div class="box2">
+                    <h1 class="boxlogo">Adım</h1>
+                    <h1 class="boxlogo1">+</h1>
+                </div>
+                <!--kutu2 bitiş-->
+                <!--kutu2 back başlangıç-->
+                <div class="box2back">
+                    <span class="span1">İlerleme Durumu</span>
+                    <span class="hedef1">1. Hedef :</span>
+                    <div class="bar"></div>
+                    <div class="barbar"></div>
+                    <span class="yuzde1">90% Tamamlandı</span>
+                    <span class="yuzde15">90%</span>
+                    <span class="hedef2">2. Hedef :</span>
+                    <div class="bar2"></div>
+                    <div class="barbar2"></div>
+                    <span class="yuzde2">51% Tamamlandı</span>
+                    <span class="yuzde25">51%</span>
+                    <span class="hedef3">3. Hedef :</span>
+                    <div class="bar3"></div>
+                    <div class="barbar3"></div>
+                    <span class="yuzde3">30% Tamamlandı</span>
+                    <span class="yuzde35">30%</span>
+                    <!--günlük ilerleme başlangıç-->
+                    <div class="ilerlefot">
+                        <span class="hedef4">Günlük İlerleme :</span>
+                        <div class="bar4"></div>
+                        <div class="barbar4"></div>
+                        <span class="yuzde4">57% Tamamlandı</span>
+                        <span class="yuzde45">57%</span>
+                    </div>
+                    <!--günlük ilerleme bitiş-->
+                </div>
+                <!--kutu2 back bitiş-->
+                <!--kutu3 başlangıç-->
+                <div class="box3">
+                    <h1 class="boxlogo">Adım</h1>
+                    <h1 class="boxlogo1">+</h1>
+                </div>
+                <!--kutu3 bitiş-->
+                <!--kutu3 back başlangıç-->
+                <div class="box3back">
+                    <span class="serı">Seri Durumu</span>
+                    <!--png başlangıç-->
+                    <div class="png">
+                        <div class="png1"></div>
+                        <span class="pngyazı">5</span>
+                    </div>
+                    <div class="png2"></div>
+                    <span class="pngyazı2">.....</span>
+                    <span class="pngyazı3">..</span>
+                    <span class="pngyazı4">1234567</span>
+                    <!--png bitiş-->
+                    <!--seri durumu başlangıç-->
+                    <div class="durum1">
+                        <span class="durumyazı1">Şu Anki Seri: 5 Gün</span>
+                    </div>
+                    <div class="durum2">
+                        <span class="durumyazı2">En Uzun Seri: 12 Gün</span>
+                    </div>
+                    <!--seri durumu bitiş-->
+                </div>
+                <!--kutu3 back bitiş-->
+            </div>
+            <!--hemen başla butonu başlangıç-->
+            <label for="checkbox" class="button">Hemen Başla</label>
+            <!--hemen başla butonu bitiş-->
+        </div>
+    </div>
+</body>
+
+</html>

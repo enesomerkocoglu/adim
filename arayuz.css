@@ -1,0 +1,759 @@
+.container {
+    display: flex;
+    width: 100%;
+    max-height: 100%;
+    position: relative;
+    height: calc(100vh - 6rem);
+}
+
+.sol {
+    display: inline-block;
+    background-color: var(--ana-renk);
+    height: calc(100vh - 6rem);
+    max-width: 36.5vw;
+    width: 100%;
+    position: relative;
+    padding: 27rem 0 0 2.5rem;
+    margin-top: 0;
+    border-width: 0 .2rem 0 0;
+    border-color: var(--ikinci-renk);
+    border-style: solid;
+    box-shadow: 1px 0 5px var(--gölge);
+}
+
+.container .h1 {
+    color: var(--ikinci-renk);
+    font-size: 5.9rem;
+    font-weight: 700;
+}
+
+.container .h2 {
+    margin-top: 1.5rem;
+    color: var(--ikinci-renk);
+    font-size: 5.7rem;
+    font-weight: 700;
+}
+
+.container p {
+    font-size: 1.6rem;
+    color: var(--ikinci-renk);
+    margin-top: 2rem;
+    letter-spacing: .1rem;
+    margin-bottom: 3rem;
+}
+
+.container .button {
+    border: .2rem solid var(--beyaz);
+    background-color: var(--beyaz);
+    color: var(--ikinci-renk);
+    display: flex;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 300ms ease border;
+    height: 5rem;
+    width: 12rem;
+    box-shadow: 1px 0px 5px var(--ikinci-renk);
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-top: 1.2rem;
+    padding-left: 1rem;
+    position: absolute;
+    bottom: 35%;
+    left: 2rem;
+}
+
+.container .button span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+/*button animasyon*/
+.container .button:hover {
+    border: .2rem solid var(--ikinci-renk);
+    box-sizing: border-box;
+    transition: 300ms ease border;
+    user-select: none;
+}
+
+/*ana buton input*/
+.görev1 {
+    visibility: hidden;
+}
+
+/*sol taraf end*/
+/*sağ taraf start*/
+.sag {
+    background-color: transparent;
+    height: calc(100vh - 6rem);
+    user-select: none;
+    width: 100%;
+    max-width: 65.5vw;
+}
+
+.sag .container2 {
+    display: grid;
+    grid-template-rows: 0fr 0fr 0fr;
+    background-color: transparent;
+
+    gap: 2rem;
+    perspective: 2000px;
+
+}
+
+/*box ön taraf başlangıç*/
+.box1 {
+    background-color: #1E1E1E;
+    display: inline-block;
+    position: relative;
+    height: 26rem;
+    width: 100%;
+    max-width: 100rem;
+    border-radius: 1rem;
+    box-shadow: -1px 1px 5px var(--gölge);
+    transition: 1s ease transform;
+    transform: rotateY(0);
+    backface-visibility: hidden;
+}
+
+.box2 {
+    background-color: var(--ikinci-renk);
+    display: inline-block;
+    position: relative;
+    height: 26rem;
+    width: 100%;
+    max-width: 100rem;
+    border-radius: 1rem;
+    box-shadow: -1px 1px 5px var(--gölge);
+    transition: 1s 400ms ease transform;
+    transform: rotateY(0);
+    backface-visibility: hidden;
+}
+
+.box3 {
+    background-color: var(--ikinci-renk);
+    display: inline-block;
+    position: relative;
+    height: 26rem;
+    width: 100%;
+    max-width: 100rem;
+    border-radius: 1rem;
+    box-shadow: -1px 1px 5px var(--gölge);
+    transition: 1s 800ms ease transform;
+    transform: rotateY(0);
+    backface-visibility: hidden;
+}
+
+.sag .boxlogo {
+    color: var(--beyaz);
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 47%;
+    left: 48.6%;
+    transform: translate(-50%, -50%);
+    font-size: 1.9rem;
+}
+
+.sag .boxlogo1 {
+    color: var(--ana-renk);
+    display: inline;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 46.3%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+}
+
+/*box ön taraf bitiş*/
+
+/*box checkbox başlangıç*/
+.görev1:checked~.box1back {
+    transform: rotateY(0);
+}
+
+.görev1:checked~.box1 {
+    transform: rotateY(-180deg);
+}
+
+.görev1:checked~.box2back {
+    transform: rotateY(0);
+}
+
+.görev1:checked~.box2 {
+    transform: rotateY(-180deg);
+}
+
+.görev1:checked~.box3back {
+    transform: rotateY(0);
+}
+
+.görev1:checked~.box3 {
+    transform: rotateY(-180deg);
+}
+
+/*box checkbox bitiş*/
+
+/*box1 arka taraf başlangıç*/
+.box1back {
+    position: absolute;
+    background-color: var(--ikinci-renk);
+    display: inline-block;
+    height: 26rem;
+    width: 100%;
+    max-width: 100rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    box-shadow: -1px 1px 5px var(--gölge);
+    color: var(--beyaz);
+    top: 3.6rem;
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+    transition: 1s ease transform;
+}
+
+.box1back .days {
+    visibility: hidden;
+    position: absolute;
+}
+
+.box1back label {
+    display: inline-block;
+    margin: 2rem 5rem;
+    font-size: 1.7rem;
+    background-color: var(--beyaz);
+    height: 2.5rem;
+    width: 4rem;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0px 0px 4px var(--beyaz);
+    transition: 300ms ease background-color, 300ms ease color;
+}
+
+.box1back .son {
+    background-color: var(--gölge);
+    color: var(--beyaz);
+    transition: 300ms ease background-color;
+}
+
+#hedef {
+    appearance: none;
+    display: inline-block;
+    height: 5rem;
+    width: 81rem;
+    background-color: transparent;
+    color: var(--beyaz);
+    border-width: 0 0 1px 0;
+    border-color: var(--beyaz);
+    margin-left: 2rem;
+    position: relative;
+    outline: none;
+}
+
+#hedef::placeholder {
+    color: var(--ana-renk);
+    font-size: 1.6rem;
+    position: absolute;
+    bottom: .5rem;
+    font-weight: 600;
+}
+
+#hedef2 {
+    appearance: none;
+    display: inline-block;
+    height: 5rem;
+    width: 81rem;
+    background-color: transparent;
+    color: var(--beyaz);
+    border-width: 0 0 1px 0;
+    border-color: var(--beyaz);
+    margin-left: 2rem;
+    position: relative;
+    outline: none;
+}
+
+#hedef2::placeholder {
+    color: var(--ana-renk);
+    font-size: 1.6rem;
+    position: absolute;
+    bottom: .5rem;
+    font-weight: 600;
+}
+
+#hedef3 {
+    appearance: none;
+    display: inline-block;
+    height: 5rem;
+    width: 81rem;
+    background-color: transparent;
+    color: var(--beyaz);
+    border-width: 0 0 1px 0;
+    border-color: var(--beyaz);
+    margin-left: 2rem;
+    position: relative;
+    outline: none;
+    font-size: 1.6rem;
+}
+
+#hedef3::placeholder {
+    color: var(--ana-renk);
+    font-size: 1.6rem;
+    position: absolute;
+    bottom: .5rem;
+    font-weight: 600;
+}
+
+.add {
+    display: inline-block;
+    position: absolute;
+    bottom: .5rem;
+    left: 2rem;
+    font-size: 3rem;
+    color: var(--gölge);
+    cursor: pointer;
+    transition: 300ms ease color;
+}
+
+.kaydet {
+    position: absolute;
+    display: inline-block;
+    appearance: none;
+    border: 3px solid transparent;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    bottom: 2.3rem;
+    right: 3rem;
+    cursor: pointer;
+    box-shadow: 0 0 3.5px var(--gölge);
+    transition: 300ms ease border;
+    font-weight: 600;
+}
+
+/*box1 animasyon başlangıç*/
+.add:hover {
+    color: var(--ana-renk);
+}
+
+.kaydet:hover {
+    border: 3px solid var(--ana-renk);
+}
+
+/*box1 arka checkbox başlangıç*/
+.box1back input:checked+label {
+    background-color: var(--ana-renk);
+    color: var(--beyaz);
+}
+
+.box1back input:checked+.son {
+    background-color: var(--üçüncü-renk);
+}
+
+/*box1 arka checkbox bitiş*/
+
+/*box1 arka taraf bitiş*/
+
+/*box2 arka başlangıç*/
+.box2back {
+    position: absolute;
+    background-color: var(--ikinci-renk);
+    display: inline-block;
+    height: 26rem;
+    width: 100%;
+    max-width: 100rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    box-shadow: -1px 1px 5px var(--gölge);
+    color: var(--beyaz);
+    top: 32rem;
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+    transition: 1s ease 400ms transform;
+}
+
+.box2back .span1 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+    background-color: transparent;
+    padding-bottom: .5rem;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: var(--ana-renk);
+}
+
+.hedef1 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+.bar {
+    height: 1.5rem;
+    width: 60rem;
+    background-color: var(--beyaz);
+    display: inline-block;
+    margin-left: 1rem;
+    border-radius: 2rem;
+}
+
+.barbar {
+    position: absolute;
+    height: 1.5rem;
+    width: 0;
+    background-color: var(--üçüncü-renk);
+    display: inline-block;
+    left: 9.2rem;
+    border-radius: 2rem;
+    top: 5.3rem;
+    transition: 1s ease 1.3s width;
+    box-shadow: 0 0 3px var(--üçüncü-renk);
+}
+
+.yuzde1 {
+    font-size: 1.6rem;
+    margin-left: 1.5rem;
+    display: inline-block;
+    background-color: transparent;
+    width: 27rem;
+}
+
+.yuzde15 {
+    font-size: 1.6rem;
+    margin-left: 1.5rem;
+    display: none;
+    background-color: transparent;
+    width: 27rem;
+}
+
+.hedef2 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-left: 1rem;
+    display: inline-block;
+    margin-top: 2.7rem;
+
+}
+
+.bar2 {
+    height: 1.5rem;
+    width: 60rem;
+    background-color: var(--beyaz);
+    display: inline-block;
+    margin-left: 1rem;
+    border-radius: 2rem;
+}
+
+.barbar2 {
+    position: absolute;
+    height: 1.5rem;
+    width: 0;
+    background-color: var(--üçüncü-renk);
+    display: inline-block;
+    left: 9.2rem;
+    border-radius: 2rem;
+    top: 10.2rem;
+    transition: 1s ease 1.6s width;
+    box-shadow: 0 0 3px var(--üçüncü-renk);
+}
+
+.yuzde2 {
+    font-size: 1.6rem;
+    margin-left: 1.5rem;
+    display: inline-block;
+    background-color: transparent;
+    width: 25rem;
+}
+
+.yuzde25 {
+    font-size: 1.6rem;
+    margin-left: 1.5rem;
+    display: none;
+    background-color: transparent;
+    width: 25rem;
+}
+
+.hedef3 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-left: 1rem;
+    display: inline-block;
+    margin-top: 2.7rem;
+}
+
+.bar3 {
+    height: 1.5rem;
+    width: 60rem;
+    background-color: var(--beyaz);
+    display: inline-block;
+    margin-left: 1rem;
+    border-radius: 2rem;
+}
+
+.barbar3 {
+    position: absolute;
+    height: 1.5rem;
+    width: 0;
+    background-color: var(--üçüncü-renk);
+    display: inline-block;
+    left: 9.2rem;
+    border-radius: 2rem;
+    top: 15.1rem;
+    transition: 1s 1.9s ease width;
+    box-shadow: 0 0 3px var(--üçüncü-renk);
+}
+
+.yuzde3 {
+    font-size: 1.6rem;
+    margin-left: 1.5rem;
+    display: inline-block;
+    background-color: transparent;
+    width: 25rem;
+}
+
+.yuzde35 {
+    font-size: 1.6rem;
+    margin-left: 1.5rem;
+    display: none;
+    background-color: transparent;
+    width: 25rem;
+}
+
+.ilerlefot {
+    background-color: var(--ana-renk);
+    margin-top: 2.7rem;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.hedef4 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-left: 1rem;
+    display: inline-block;
+    padding: 2.1rem 0;
+    color: var(--ikinci-renk);
+}
+
+.bar4 {
+    height: 1.5rem;
+    width: 60rem;
+    background-color: var(--ikinci-renk);
+    display: inline-block;
+    margin-left: 1rem;
+    border-radius: 2rem;
+}
+
+.barbar4 {
+    position: absolute;
+    height: 1.5rem;
+    width: 0;
+    background-color: var(--beyaz);
+    display: inline-block;
+    left: 15.2rem;
+    border-radius: 2rem;
+    top: 22.1rem;
+    transition: 1s ease 2.2s width;
+    box-shadow: 0 0 3px var(--beyaz);
+}
+
+.yuzde4 {
+    font-size: 1.6rem;
+    margin-left: 1.5rem;
+    display: inline-block;
+    background-color: transparent;
+    width: 20rem;
+    color: var(--ikinci-renk);
+}
+
+.yuzde45 {
+    font-size: 1.6rem;
+    margin-left: 1.5rem;
+    display: none;
+    background-color: transparent;
+    width: 20rem;
+    color: var(--ikinci-renk);
+}
+
+/*box2 arka checkbox başlangıç*/
+.görev1:checked~.box2back .barbar {
+    width: 54rem;
+}
+
+.görev1:checked~.box2back .barbar2 {
+    width: 31rem;
+}
+
+.görev1:checked~.box2back .barbar3 {
+    width: 18rem;
+}
+
+.görev1:checked~.box2back .barbar4 {
+    width: 34rem;
+}
+
+/*box2 arka checkbox bitiş*/
+
+/*box2 arka bitiş*/
+
+/*box3 arka başlangıç*/
+.box3back {
+    position: absolute;
+    background-color: var(--ikinci-renk);
+    display: inline-block;
+    height: 26rem;
+    width: 100%;
+    max-width: 100rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    box-shadow: -1px 1px 5px var(--gölge);
+    color: var(--beyaz);
+    top: 60.3rem;
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+    transition: 1s ease 800ms transform;
+}
+
+/*box3 arka sol başlangıç*/
+.box3back .serı {
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+    padding: .5rem 0;
+    border-width: 0 0 1px 0;
+    border-color: var(--ana-renk);
+    border-style: solid;
+    font-weight: 600;
+    margin-top: .5rem;
+}
+
+.box3back .png {
+    display: inline-block;
+    height: 22.2rem;
+    width: 50%;
+    background-color: transparent;
+    border-width: 0 1px 0 0;
+    border-color: var(--ana-renk);
+    border-style: solid;
+}
+
+.box3back .png .png1 {
+    background-image: url(pngwing.com.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    top: 6.5rem;
+    left: 3rem;
+    transition: 1s ease 1.4s opacity;
+    opacity: 0;
+}
+
+.box3back .png .pngyazı {
+    font-size: 4rem;
+    color: var(--ana-renk);
+    position: absolute;
+    left: 6rem;
+    font-weight: 700;
+    top: 10.3rem;
+    text-shadow: 0 0 4px orange;
+}
+
+.box3back .png2 {
+    display: inline-block;
+    position: absolute;
+    height: .1rem;
+    width: 40%;
+    background-color: var(--ana-renk);
+    top: 20rem;
+    left: 3rem;
+}
+
+.box3back .pngyazı2 {
+    color: rgb(255, 123, 0);
+    display: inline-block;
+    font-size: 20rem;
+    position: absolute;
+    left: 1.6rem;
+    bottom: .1rem;
+    letter-spacing: 2.3rem;
+}
+
+.box3back .pngyazı3 {
+    color: var(--beyaz);
+    display: inline-block;
+    font-size: 20rem;
+    position: absolute;
+    left: 35.1rem;
+    bottom: .1rem;
+    letter-spacing: 2.3rem;
+}
+
+.box3back .pngyazı4 {
+    color: var(--ikinci-renk);
+    display: inline-block;
+    font-size: 1.6rem;
+    position: absolute;
+    left: 3.4rem;
+    bottom: 5rem;
+    letter-spacing: 5.8rem;
+    font-weight: 600;
+}
+
+/*animasyon ateş*/
+.görev1:checked~.box3back .png .png1 {
+    opacity: 1;
+}
+
+/*box3 arka sol bitiş*/
+
+/*box3 arka sağ başlangıç*/
+.durum1 {
+    display: inline-block;
+    height: 42.5%;
+    width: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: 3.6rem;
+    border-color: var(--ana-renk);
+    border-style: solid;
+    border-width: 0 0 1px 0;
+}
+
+.durum1 .durumyazı1 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 2rem;
+}
+
+.durum2 {
+    background-color: transparent;
+    display: inline-block;
+    height: 42.5%;
+    width: 50%;
+    position: absolute;
+    top: 15rem;
+}
+
+.durum2 .durumyazı2 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 2rem;
+}

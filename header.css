@@ -1,0 +1,289 @@
+/*header start*/
+header {
+    height: 6rem;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: var(--ana-renk);
+    box-shadow: -1px 1px 5px var(--gölge);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0px 0px 20px 20px;
+    user-select: none;
+    z-index: 999;
+    top: 0;
+    background-color: var(--beyaz);
+    position: sticky;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex1 .logo {
+    height: auto;
+    font-size: 2.5rem;
+    color: black;
+    margin-left: 2rem;
+}
+
+.flex1 .artı {
+    font-size: 3rem;
+    height: auto;
+    margin-right: 12rem;
+    color: var(--ana-renk);
+}
+
+.flex1 ul {
+    top: 2.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 7rem;
+    position: absolute;
+    left: 18rem;
+}
+
+.flex1 ul li {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.flex1 ul li label {
+    transition: 300ms color;
+    text-decoration: none;
+    color: var(--ikinci-renk);
+    position: relative;
+    cursor: pointer;
+}
+
+/*header animasyon başlangıç*/
+.flex1 ul li label::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    height: 2px;
+    width: 100%;
+    background-color: var(--ikinci-renk);
+    transition: 0.2s ease bottom, 0.3s ease opacity;
+    opacity: 0;
+}
+
+.flex1 ul li label:hover::after {
+    bottom: -2px;
+    opacity: 1;
+}
+
+.flex1 ul li label:hover {
+    color: var(--ana-renk);
+}
+
+/*header animasyon bitiş*/
+
+/*hedefler başlangıç*/
+.flex1 .kutuh {
+    background-color: var(--beyaz);
+    position: absolute;
+    height: 4rem;
+    width: 0;
+    top: 5rem;
+    left: -13.5rem;
+    border-radius: 1rem;
+    transition: 300ms  ease-in 200ms width;
+    box-shadow: 0 0 5px var(--gölge);
+}
+
+.flex1 .kutuh h2 {
+    color: var(--ana-renk);
+    font-size: 1.4rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    position: absolute;
+    opacity: 0;
+    transition: 300ms 250ms opacity;
+}
+
+.flex1 .kutuh p {
+    color: var(--ikinci-renk);
+    font-size: 1.3rem;
+    padding-left: 25rem;
+    margin-top: 1rem;
+    opacity: 0;
+    transition: 300ms 150ms opacity;
+}
+
+/*hedefler checkbox başlangıç*/
+.flex1 li .hedefler:checked~.kutuh {
+    width: 60rem;
+}
+
+.flex1 li .hedefler:checked~.kutuh h2 {
+    opacity: 1;
+}
+
+.flex1 li .hedefler:checked~.kutuh p {
+    opacity: 1;
+    transition: 1s 600ms opacity;
+}
+
+/*hedefler checkbox başlangıç*/
+/*hedefler bitiş*/
+
+/*ilerleme başlangıç*/
+.flex1 .kutui {
+    background-color: var(--beyaz);
+    position: absolute;
+    height: 4rem;
+    width: 0;
+    top: 10.3rem;
+    left: -13.5rem;
+    border-radius: 1rem;
+    transition: 300ms  ease-in 200ms width;
+    box-shadow: 0 0 5px var(--gölge);
+}
+
+.flex1 .kutui h2 {
+    color: var(--ana-renk);
+    font-size: 1.4rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    position: absolute;
+    opacity: 0;
+    transition: 300ms 250ms opacity;
+}
+
+.flex1 .kutui .ilerlemeb {
+    height: 1.5rem;
+    width: 35rem;
+    background-color: var(--ikinci-renk);
+    position: absolute;
+    left: 15rem;
+    top: 1.3rem;
+    border-radius: 1rem;
+    opacity: 0;
+    transition: 150ms 200ms opacity;
+}
+
+.flex1 .kutui .ilerlemeb1 {
+    height: 1.5rem;
+    width: 0;
+    background-color: var(--ana-renk);
+    position: absolute;
+    left: 15rem;
+    top: 1.3rem;
+    border-radius: 1rem;
+    transition: 200ms 210ms width;
+
+}
+
+.flex1 .kutui .ilerlemeb2 {
+    position: absolute;
+    right: 3.5rem;
+    top: 1rem;
+    color: var(--ikinci-renk);
+    opacity: 0;
+    transition: 300ms 250ms opacity;
+
+}
+
+/*ilerleme checkbox başlangıç*/
+.flex1 li .ilerleme:checked~.kutui {
+    width: 60rem;
+}
+
+.flex1 li .ilerleme:checked~.kutui h2 {
+    opacity: 1;
+}
+
+.flex1 li .ilerleme:checked~.kutui .ilerlemeb {
+    opacity: 1;
+    transition: 310ms 400ms opacity;
+}
+
+.flex1 li .ilerleme:checked~.kutui .ilerlemeb1 {
+    width: 20rem;
+    transition: 1s 1s width;
+}
+
+.flex1 li .ilerleme:checked~.kutui .ilerlemeb2 {
+    opacity: 1;
+}
+
+/*ilerleme checkbox bitiş*/
+/*ilerleme bitiş*/
+
+/*seriler başlangıç*/
+.flex1 .kutus {
+    background-color: var(--beyaz);
+    position: absolute;
+    height: 4rem;
+    width: 0;
+    top: 15.5rem;
+    left: -13.5rem;
+    border-radius: 1rem;
+    transition: 300ms  ease-in 200ms width;
+    box-shadow: 0 0 5px var(--gölge);
+}
+
+.flex1 .kutus h2 {
+    color: var(--ana-renk);
+    font-size: 1.4rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    position: absolute;
+    opacity: 0;
+    transition: 300ms 250ms opacity;
+}
+
+.flex1 .kutus p {
+    color: var(--ikinci-renk);
+    font-size: 1.3rem;
+    padding-left: 24rem;
+    margin-top: 1rem;
+    opacity: 0;
+    transition: 300ms 150ms opacity;
+}
+
+/*seriler checkbox başlangıç*/
+.flex1 li .seriler:checked~.kutus {
+    width: 60rem;
+}
+
+.flex1 li .seriler:checked~.kutus h2 {
+    opacity: 1;
+}
+
+.flex1 li .seriler:checked~.kutus p {
+    opacity: 1;
+    transition: 1s 600ms opacity;
+}
+
+/*seriler checkbox bitiş*/
+/*seriler bitiş*/
+
+/*header checkbox başlangıç*/
+
+.flex1 li .hedefler:checked+.hedefler1 {
+    color: var(--ana-renk);
+}
+
+.flex1 li .ilerleme:checked+.ilerleme1 {
+    color: var(--ana-renk);
+}
+
+.flex1 li .seriler:checked+.seriler1 {
+    color: var(--ana-renk);
+}
+
+/*header checkbox bitiş*/

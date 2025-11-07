@@ -1,0 +1,2844 @@
+@media (min-width:1750px) {
+    .box1 {
+        margin-left: 10rem;
+    }
+
+    .box1back {
+        margin-left: 10rem;
+    }
+
+    .box2 {
+        margin-left: 10rem;
+    }
+
+    .box2back {
+        margin-left: 10rem;
+    }
+
+    .box3 {
+        margin-left: 10rem;
+    }
+
+    .box3back {
+        margin-left: 10rem;
+    }
+}
+
+@media (max-width:1669px) {
+    .sag .boxlogo1 {
+        left: 52.5%;
+    }
+
+    .flex1 .kutuh {
+        height: 4rem;
+        top: 5rem;
+        left: -13.5rem;
+    }
+
+    .flex1 .kutuh h2 {
+        font-size: 1.4rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+
+    .flex1 .kutuh p {
+        font-size: 1.3rem;
+        padding-left: 25rem;
+        margin-top: 1rem;
+    }
+
+    .flex1 li .hedefler:checked~.kutuh {
+        width: 50rem;
+    }
+
+    .flex1 .kutui {
+        height: 4rem;
+        width: 0;
+        top: 10.3rem;
+        left: -13.5rem;
+        border-radius: 1rem;
+    }
+
+    .flex1 .kutui h2 {
+        font-size: 1.4rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+
+    .flex1 .kutui .ilerlemeb {
+        height: 1.5rem;
+        width: 25rem;
+        left: 15rem;
+        top: 1.3rem;
+    }
+
+    .flex1 .kutui .ilerlemeb1 {
+        height: 1.5rem;
+        left: 15rem;
+        top: 1.3rem;
+    }
+
+    .flex1 .kutui .ilerlemeb2 {
+        right: 3.5rem;
+        top: 1rem;
+    }
+
+    .flex1 li .ilerleme:checked~.kutui {
+        width: 50rem;
+    }
+
+    .flex1 li .ilerleme:checked~.kutui .ilerlemeb1 {
+        width: 15rem;
+    }
+
+    .flex1 .kutus {
+        height: 4rem;
+        top: 15.5rem;
+        left: -13.5rem;
+    }
+
+    .flex1 .kutus h2 {
+        font-size: 1.4rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+
+    .flex1 .kutus p {
+        font-size: 1.3rem;
+        padding-left: 24rem;
+        margin-top: 1rem;
+    }
+
+    .flex1 li .seriler:checked~.kutus {
+        width: 50rem;
+    }
+
+    .box1 {
+        height: 26rem;
+        width: 88rem;
+        margin-left: 5rem;
+    }
+
+    .box1back {
+        height: 26rem;
+        width: 88rem;
+        margin-left: 5rem;
+    }
+
+    .box1back label {
+        margin: 2rem 4.2rem;
+    }
+
+    #hedef {
+        width: 70rem;
+    }
+
+    #hedef2 {
+        width: 70rem;
+    }
+
+    #hedef3 {
+        width: 70rem;
+    }
+
+    .box2 {
+        height: 26rem;
+        width: 88rem;
+        margin-left: 5rem;
+    }
+
+    .box2back {
+        height: 26rem;
+        width: 88rem;
+        margin-left: 5rem;
+    }
+
+    .yuzde1 {
+        margin-left: 3rem;
+        width: auto;
+    }
+
+    .yuzde2 {
+        margin-left: 3rem;
+        width: auto;
+    }
+
+    .yuzde3 {
+        margin-left: 3rem;
+        width: auto;
+    }
+
+    .bar4 {
+        height: 1.5rem;
+        width: 55rem;
+        margin-left: 1rem;
+        border-radius: 2rem;
+    }
+
+    .yuzde4 {
+        margin-left: 3rem;
+        width: auto;
+    }
+
+    .box3 {
+        height: 26rem;
+        width: 88rem;
+        margin-left: 5rem;
+    }
+
+    .box3back {
+        height: 26rem;
+        width: 88rem;
+        margin-left: 5rem;
+    }
+
+    .box3back .pngyazı2 {
+        left: 1.6rem;
+        letter-spacing: 1.4rem;
+    }
+
+    .box3back .pngyazı3 {
+        left: 30.4rem;
+        letter-spacing: 1.4rem;
+    }
+
+    .box3back .pngyazı4 {
+        left: 3.4rem;
+        letter-spacing: 4.9rem;
+    }
+}
+
+@media(max-width:1569px) {
+    .container .h1 {
+        font-size: 5rem;
+        font-weight: 700;
+    }
+
+    .container .h2 {
+        margin-top: 1.5rem;
+        font-size: 5rem;
+        font-weight: 700;
+    }
+
+    .container p {
+        font-size: 1.6rem;
+        margin-top: 2rem;
+        letter-spacing: .1rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media(max-width:1530px) {
+    .flex1 .kutuh {
+        height: 4rem;
+        top: 5rem;
+        left: -15.5rem;
+    }
+
+    .flex1 .kutuh h2 {
+        font-size: 1.4rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+
+    .flex1 .kutuh p {
+        font-size: 1.3rem;
+        padding-left: 15rem;
+        margin-top: 1rem;
+    }
+
+    .flex1 li .hedefler:checked~.kutuh {
+        width: 40rem;
+    }
+
+    .flex1 .kutui {
+        height: 4rem;
+        width: 0;
+        top: 10.3rem;
+        left: -15.5rem;
+        border-radius: 1rem;
+    }
+
+    .flex1 .kutui h2 {
+        font-size: 1.4rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+
+    .flex1 .kutui .ilerlemeb {
+        height: 1.5rem;
+        width: 17rem;
+        left: 15rem;
+        top: 1.3rem;
+    }
+
+    .flex1 .kutui .ilerlemeb1 {
+        height: 1.5rem;
+        left: 15rem;
+        top: 1.3rem;
+    }
+
+    .flex1 .kutui .ilerlemeb2 {
+        right: 3.5rem;
+        top: 1rem;
+    }
+
+    .flex1 li .ilerleme:checked~.kutui {
+        width: 40rem;
+    }
+
+    .flex1 li .ilerleme:checked~.kutui .ilerlemeb1 {
+        width: 10rem;
+    }
+
+    .flex1 .kutus {
+        height: 4rem;
+        top: 15.5rem;
+        left: -15.5rem;
+    }
+
+    .flex1 .kutus h2 {
+        font-size: 1.4rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+
+    .flex1 .kutus p {
+        font-size: 1.3rem;
+        padding-left: 14rem;
+        margin-top: 1rem;
+    }
+
+    .flex1 li .seriler:checked~.kutus {
+        width: 40rem;
+    }
+
+    .box1 {
+        height: 26rem;
+        width: 80rem;
+        margin-left: 5rem;
+    }
+
+    .box1back {
+        height: 26rem;
+        width: 80rem;
+        margin-left: 5rem;
+    }
+
+    .box1back label {
+        margin: 2rem 3.6rem;
+    }
+
+    #hedef {
+        width: 60rem;
+    }
+
+    #hedef2 {
+        width: 60rem;
+    }
+
+    #hedef3 {
+        width: 60rem;
+    }
+
+    .box2 {
+        height: 26rem;
+        width: 80rem;
+        margin-left: 5rem;
+    }
+
+    .box2back {
+        height: 26rem;
+        width: 80rem;
+        margin-left: 5rem;
+    }
+
+    .bar {
+        height: 1.5rem;
+        width: 50rem;
+        margin-left: 1rem;
+        border-radius: 2rem;
+    }
+
+    .yuzde1 {
+        font-size: 1.6rem;
+        margin-left: 1.5rem;
+        width: auto;
+    }
+
+    .bar2 {
+        height: 1.5rem;
+        width: 50rem;
+        display: inline-block;
+        margin-left: 1rem;
+        border-radius: 2rem;
+    }
+
+    .yuzde2 {
+        font-size: 1.6rem;
+        margin-left: 1.5rem;
+        display: inline-block;
+        width: auto;
+    }
+
+    .bar3 {
+        height: 1.5rem;
+        width: 50rem;
+        display: inline-block;
+        margin-left: 1rem;
+        border-radius: 2rem;
+    }
+
+    .yuzde3 {
+        font-size: 1.6rem;
+        margin-left: 1.5rem;
+        display: inline-block;
+        width: auto;
+    }
+
+    .ilerlefot {
+        margin-top: 2.7rem;
+        border-radius: 0 0 1rem 1rem;
+    }
+
+    .hedef4 {
+        font-size: 1.7rem;
+        font-weight: 500;
+        margin-left: 1rem;
+        display: inline-block;
+        padding: 2.1rem 0;
+    }
+
+    .bar4 {
+        height: 1.5rem;
+        width: 50rem;
+        display: inline-block;
+        margin-left: 1rem;
+        border-radius: 2rem;
+    }
+
+    .yuzde4 {
+        font-size: 1.6rem;
+        margin-left: 1.5rem;
+        display: inline-block;
+        width: auto;
+    }
+
+    .görev1:checked~.box2back .barbar {
+        width: 44rem;
+    }
+
+    .görev1:checked~.box2back .barbar2 {
+        width: 21rem;
+    }
+
+    .görev1:checked~.box2back .barbar3 {
+        width: 8rem;
+    }
+
+    .görev1:checked~.box2back .barbar4 {
+        width: 24rem;
+    }
+
+    .box3 {
+        height: 26rem;
+        width: 80rem;
+        margin-left: 5rem;
+    }
+
+    .box3back {
+        height: 26rem;
+        width: 80rem;
+        margin-left: 5rem;
+    }
+
+    .box3back .pngyazı2 {
+        left: 1.6rem;
+        letter-spacing: 1rem;
+    }
+
+    .box3back .pngyazı3 {
+        left: 28.4rem;
+        letter-spacing: 1rem;
+    }
+
+    .box3back .pngyazı4 {
+        left: 3.4rem;
+        letter-spacing: 4.5rem;
+    }
+
+}
+
+@media(max-width:1340px) {
+    .sag .boxlogo1 {
+        left: 53.5%;
+    }
+
+    .container .h1 {
+        font-size: 4rem;
+        font-weight: 700;
+    }
+
+    .container .h2 {
+        margin-top: 1.5rem;
+        font-size: 4rem;
+        font-weight: 700;
+    }
+
+    .container p {
+        font-size: 1.6rem;
+        margin-top: 2rem;
+        letter-spacing: .1rem;
+
+    }
+
+    .box1 {
+        height: 26rem;
+        width: 70rem;
+        margin-left: 5rem;
+    }
+
+    .box1back {
+        height: 26rem;
+        width: 70rem;
+        margin-left: 5rem;
+    }
+
+    .box1back label {
+        margin: 2rem 2.9rem;
+    }
+
+    #hedef {
+        width: 50rem;
+    }
+
+    #hedef2 {
+        width: 50rem;
+    }
+
+    #hedef3 {
+        width: 50rem;
+    }
+
+    .box2 {
+        height: 26rem;
+        width: 70rem;
+        margin-left: 5rem;
+    }
+
+    .box2back {
+        height: 26rem;
+        width: 70rem;
+        margin-left: 5rem;
+    }
+
+    .bar {
+        height: 1.5rem;
+        width: 40rem;
+        display: inline-block;
+        margin-left: 1rem;
+        border-radius: 2rem;
+    }
+
+    .yuzde1 {
+        font-size: 1.6rem;
+        margin-left: 1.5rem;
+        display: inline-block;
+        width: auto;
+    }
+
+    .bar2 {
+        height: 1.5rem;
+        width: 40rem;
+        display: inline-block;
+        margin-left: 1rem;
+        border-radius: 2rem;
+    }
+
+    .yuzde2 {
+        font-size: 1.6rem;
+        margin-left: 1.5rem;
+        display: inline-block;
+        width: auto;
+    }
+
+    .bar3 {
+        height: 1.5rem;
+        width: 40rem;
+        display: inline-block;
+        margin-left: 1rem;
+        border-radius: 2rem;
+    }
+
+    .yuzde3 {
+        font-size: 1.6rem;
+        margin-left: 1.5rem;
+        display: inline-block;
+        width: auto;
+    }
+
+    .ilerlefot {
+        margin-top: 2.7rem;
+        border-radius: 0 0 1rem 1rem;
+    }
+
+    .hedef4 {
+        font-size: 1.7rem;
+        font-weight: 500;
+        margin-left: 1rem;
+        display: inline-block;
+        padding: 2.1rem 0;
+    }
+
+    .bar4 {
+        height: 1.5rem;
+        width: 40rem;
+        display: inline-block;
+        margin-left: 1rem;
+        border-radius: 2rem;
+    }
+
+    .yuzde4 {
+        font-size: 1.6rem;
+        margin-left: 1.5rem;
+        display: inline-block;
+        width: auto;
+    }
+
+    .görev1:checked~.box2back .barbar {
+        width: 34rem;
+    }
+
+    .görev1:checked~.box2back .barbar2 {
+        width: 21rem;
+    }
+
+    .görev1:checked~.box2back .barbar3 {
+        width: 8rem;
+    }
+
+    .görev1:checked~.box2back .barbar4 {
+        width: 24rem;
+    }
+
+    .box3 {
+        height: 26rem;
+        width: 70rem;
+        margin-left: 5rem;
+    }
+
+    .box3back {
+        height: 26rem;
+        width: 70rem;
+        margin-left: 5rem;
+    }
+
+    .box3back .pngyazı2 {
+        left: 1rem;
+        letter-spacing: .5rem;
+    }
+
+    .box3back .pngyazı3 {
+        left: 25.4rem;
+        letter-spacing: .5rem;
+    }
+
+    .box3back .pngyazı4 {
+        left: 2.9rem;
+        letter-spacing: 4rem;
+    }
+
+}
+
+@media(max-width:1190px) {
+    .flex1 .kutuh {
+        height: 4rem;
+        top: 5rem;
+        left: -15.5rem;
+    }
+
+    .flex1 .kutuh h2 {
+        font-size: 1.4rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+
+    .flex1 .kutuh p {
+        font-size: 1.3rem;
+        padding-left: 15rem;
+        margin-top: 1rem;
+    }
+
+    .flex1 li .hedefler:checked~.kutuh {
+        width: 35rem;
+    }
+
+    .flex1 .kutui {
+        height: 4rem;
+        width: 0;
+        top: 10.3rem;
+        left: -15.5rem;
+        border-radius: 1rem;
+    }
+
+    .flex1 .kutui h2 {
+        font-size: 1.4rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+
+    .flex1 .kutui .ilerlemeb {
+        height: 1.5rem;
+        width: 12rem;
+        left: 15rem;
+        top: 1.3rem;
+    }
+
+    .flex1 .kutui .ilerlemeb1 {
+        height: 1.5rem;
+        left: 15rem;
+        top: 1.3rem;
+    }
+
+    .flex1 .kutui .ilerlemeb2 {
+        right: 3.5rem;
+        top: 1rem;
+    }
+
+    .flex1 li .ilerleme:checked~.kutui {
+        width: 35rem;
+    }
+
+    .flex1 li .ilerleme:checked~.kutui .ilerlemeb1 {
+        width: 7rem;
+    }
+
+    .flex1 .kutus {
+        height: 4rem;
+        top: 15.5rem;
+        left: -15.5rem;
+    }
+
+    .flex1 .kutus h2 {
+        font-size: 1.4rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+
+    .flex1 .kutus p {
+        font-size: 1.3rem;
+        padding-left: 14rem;
+        margin-top: 1rem;
+    }
+
+    .flex1 li .seriler:checked~.kutus {
+        width: 35rem;
+    }
+
+    .box1 {
+        height: 26rem;
+        width: 60rem;
+        margin-left: 5rem;
+    }
+
+    .box1back {
+        height: 26rem;
+        width: 60rem;
+        margin-left: 5rem;
+    }
+
+    .box1back label {
+        margin: 2rem 2.2rem;
+    }
+
+    #hedef {
+        width: 40rem;
+    }
+
+    #hedef2 {
+        width: 40rem;
+    }
+
+    #hedef3 {
+        width: 40rem;
+    }
+
+    .box2 {
+        height: 26rem;
+        width: 60rem;
+        margin-left: 5rem;
+    }
+
+    .box2back {
+        height: 26rem;
+        width: 60rem;
+        margin-left: 5rem;
+    }
+
+    .bar {
+        height: 1.5rem;
+        width: 30rem;
+        display: inline-block;
+        margin-left: 1rem;
+        border-radius: 2rem;
+    }
+
+    .yuzde1 {
+        font-size: 1.6rem;
+        margin-left: 1.5rem;
+        display: inline-block;
+        width: auto;
+    }
+
+    .bar2 {
+        height: 1.5rem;
+        width: 30rem;
+        display: inline-block;
+        margin-left: 1rem;
+        border-radius: 2rem;
+    }
+
+    .yuzde2 {
+        font-size: 1.6rem;
+        margin-left: 1.5rem;
+        display: inline-block;
+        width: auto;
+    }
+
+    .bar3 {
+        height: 1.5rem;
+        width: 30rem;
+        display: inline-block;
+        margin-left: 1rem;
+        border-radius: 2rem;
+    }
+
+    .yuzde3 {
+        font-size: 1.6rem;
+        margin-left: 1.5rem;
+        display: inline-block;
+        width: auto;
+    }
+
+    .ilerlefot {
+        margin-top: 2.7rem;
+        border-radius: 0 0 1rem 1rem;
+    }
+
+    .hedef4 {
+        font-size: 1.7rem;
+        font-weight: 500;
+        margin-left: 1rem;
+        display: inline-block;
+        padding: 2.1rem 0;
+    }
+
+    .bar4 {
+        height: 1.5rem;
+        width: 30rem;
+        display: inline-block;
+        margin-left: 1rem;
+        border-radius: 2rem;
+    }
+
+    .yuzde4 {
+        font-size: 1.6rem;
+        margin-left: 1.5rem;
+        display: inline-block;
+        width: auto;
+    }
+
+    .görev1:checked~.box2back .barbar {
+        width: 24rem;
+    }
+
+    .görev1:checked~.box2back .barbar2 {
+        width: 16rem;
+    }
+
+    .görev1:checked~.box2back .barbar3 {
+        width: 8rem;
+    }
+
+    .görev1:checked~.box2back .barbar4 {
+        width: 17rem;
+    }
+
+    .box3 {
+        height: 26rem;
+        width: 60rem;
+        margin-left: 5rem;
+    }
+
+    .box3back {
+        height: 26rem;
+        width: 60rem;
+        margin-left: 5rem;
+    }
+
+    .box3back .pngyazı2 {
+        left: .5rem;
+        font-size: 18rem;
+        bottom: .7rem;
+    }
+
+    .box3back .pngyazı3 {
+        left: 22.2rem;
+        font-size: 18rem;
+        bottom: .7rem;
+    }
+
+    .box3back .pngyazı4 {
+        left: 2.1rem;
+        letter-spacing: 3.5rem;
+    }
+
+}
+
+@media(max-width:1035px) {
+    .sag .boxlogo1 {
+        left: 55.5%;
+    }
+
+    .flex1 .not {
+        height: 93.6vh;
+        top: 6.1rem;
+    }
+
+    .flex1 .profil2:checked~.not {
+        width: 22rem;
+    }
+
+    .noth {
+        font-size: 3rem;
+        right: 5.5rem;
+        top: 7rem;
+    }
+
+    .notp {
+        font-size: 1.6rem;
+        right: 2.8rem;
+        top: 40rem;
+    }
+
+    #label {
+        top: 57.5rem;
+        left: 43.5%;
+    }
+
+    .flex1 .kutuh {
+        height: 4rem;
+        top: 5rem;
+        left: -16.5rem;
+    }
+
+    .flex1 .kutuh h2 {
+        font-size: 1.4rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+
+    .flex1 .kutuh p {
+        font-size: 1.3rem;
+        padding-left: 10rem;
+        margin-top: 1rem;
+    }
+
+    .flex1 li .hedefler:checked~.kutuh {
+        width: 30rem;
+    }
+
+    .flex1 .kutui {
+        height: 4rem;
+        width: 0;
+        top: 10.3rem;
+        left: -16.5rem;
+        border-radius: 1rem;
+    }
+
+    .flex1 .kutui h2 {
+        font-size: 1.4rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+
+    .flex1 .kutui .ilerlemeb {
+        height: 1.5rem;
+        width: 10rem;
+        left: 12rem;
+        top: 1.3rem;
+    }
+
+    .flex1 .kutui .ilerlemeb1 {
+        height: 1.5rem;
+        left: 12rem;
+        top: 1.3rem;
+    }
+
+    .flex1 .kutui .ilerlemeb2 {
+        right: 3.5rem;
+        top: 1rem;
+    }
+
+    .flex1 li .ilerleme:checked~.kutui {
+        width: 30rem;
+    }
+
+    .flex1 li .ilerleme:checked~.kutui .ilerlemeb1 {
+        width: 5rem;
+    }
+
+    .flex1 .kutus {
+        height: 4rem;
+        top: 15.5rem;
+        left: -16.5rem;
+    }
+
+    .flex1 .kutus h2 {
+        font-size: 1.4rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+
+    .flex1 .kutus p {
+        font-size: 1.3rem;
+        padding-left: 9rem;
+        margin-top: 1rem;
+    }
+
+    .flex1 li .seriler:checked~.kutus {
+        width: 30rem;
+    }
+
+    .container .h1 {
+        margin: 0;
+        font-size: 4rem;
+        font-weight: 700;
+    }
+
+    .container .h2 {
+        margin: 0;
+        font-size: 4rem;
+        font-weight: 700;
+    }
+
+    .container p {
+        font-size: 1.3rem;
+        margin-top: 2rem;
+        letter-spacing: 0;
+
+    }
+
+    .container .button {
+        bottom: 27.5rem;
+        left: 2rem;
+    }
+
+    .box1 {
+        width: 50rem;
+        margin-left: 5rem;
+    }
+
+    .box1back {
+        width: 50rem;
+        margin-left: 5rem;
+    }
+
+    .box1back label {
+        margin: 2rem 1.4rem;
+    }
+
+    #hedef {
+        width: 30rem;
+    }
+
+    #hedef2 {
+        width: 30rem;
+    }
+
+    #hedef3 {
+        width: 30rem;
+    }
+
+    .box2 {
+        height: 26rem;
+        width: 50rem;
+        margin-left: 5rem;
+    }
+
+    .box2back {
+        width: 50rem;
+        margin-left: 5rem;
+    }
+
+    .bar {
+        width: 20rem;
+    }
+
+    .yuzde1 {
+        font-size: 1.6rem;
+        margin-left: 1.5rem;
+        display: inline-block;
+        width: auto;
+    }
+
+    .bar2 {
+        width: 20rem;
+    }
+
+    .yuzde2 {
+        font-size: 1.6rem;
+        width: auto;
+    }
+
+    .bar3 {
+        width: 20rem;
+    }
+
+    .yuzde3 {
+        font-size: 1.6rem;
+        width: auto;
+    }
+
+    .hedef4 {
+        font-size: 1.7rem;
+        font-weight: 500;
+        margin-left: 1rem;
+        display: inline-block;
+        padding: 2.1rem 0;
+    }
+
+    .bar4 {
+        height: 1.5rem;
+        width: 20rem;
+        display: inline-block;
+        margin-left: .5rem;
+        border-radius: 2rem;
+    }
+
+    .barbar4 {
+        left: 14.6rem;
+    }
+
+    .yuzde4 {
+        font-size: 1.5rem;
+        margin-left: 1.5rem;
+        display: inline-block;
+        width: auto;
+    }
+
+    .görev1:checked~.box2back .barbar {
+        width: 17rem;
+    }
+
+    .görev1:checked~.box2back .barbar2 {
+        width: 11rem;
+    }
+
+    .görev1:checked~.box2back .barbar3 {
+        width: 6rem;
+    }
+
+    .görev1:checked~.box2back .barbar4 {
+        width: 12rem;
+    }
+
+    .box3 {
+
+        width: 50rem;
+        margin-left: 5rem;
+    }
+
+    .box3back {
+
+        width: 50rem;
+        margin-left: 5rem;
+    }
+
+    .box3back .pngyazı2 {
+        left: 1rem;
+        letter-spacing: .5rem;
+        font-size: 14rem;
+        bottom: 1.9rem;
+    }
+
+    .box3back .pngyazı3 {
+        left: 18.5rem;
+        letter-spacing: .5rem;
+        font-size: 14rem;
+        bottom: 1.9rem;
+    }
+
+    .box3back .pngyazı4 {
+        left: 2.2rem;
+        font-size: 1.3rem;
+        letter-spacing: 2.8rem;
+        bottom: 5.2rem;
+    }
+
+}
+
+@media(max-width:870px) {
+    .kayıt {
+        height: 40rem;
+        width: 50rem;
+        top: 25rem;
+    }
+
+    .kayıt input {
+        height: 4.5rem;
+        width: 45rem;
+        margin: 0 2.5rem;
+    }
+
+    .kayıt .text {
+        margin-top: 10rem;
+        margin-bottom: 2rem;
+    }
+
+    .kayıt h2 {
+        font-size: 3rem;
+        top: 5rem;
+        left: 35.5%;
+    }
+
+    #label {
+        font-size: 2rem;
+        padding: 1.3rem 3rem;
+        top: 54.5rem;
+        left: 43%;
+    }
+
+    .kayıt label {
+        top: 36.2rem;
+        left: 30.3rem;
+    }
+
+    .kayıt span {
+        top: 36.2rem;
+        left: 14rem;
+    }
+
+    #giris:checked~.email {
+        margin-top: 13rem;
+        margin-bottom: 3rem;
+    }
+
+    .flex1 .kutuh {
+        height: 4rem;
+        top: 5rem;
+        left: -17.5rem;
+    }
+
+    .flex1 .kutuh h2 {
+        font-size: 1.4rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+
+    .flex1 .kutuh p {
+        font-size: 1.2rem;
+        padding-left: 8rem;
+        margin-top: 1.1rem;
+    }
+
+    .flex1 li .hedefler:checked~.kutuh {
+        width: 25rem;
+    }
+
+    .flex1 .kutui {
+        height: 4rem;
+        width: 0;
+        top: 10.3rem;
+        left: -17.5rem;
+        border-radius: 1rem;
+    }
+
+    .flex1 .kutui h2 {
+        font-size: 1.4rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+
+    .flex1 .kutui .ilerlemeb {
+        height: 1.5rem;
+        width: 9rem;
+        left: 12rem;
+        top: 1.3rem;
+    }
+
+    .flex1 .kutui .ilerlemeb1 {
+        height: 1.5rem;
+        left: 12rem;
+        top: 1.3rem;
+    }
+
+    .flex1 .kutui .ilerlemeb2 {
+        right: 1rem;
+        top: 1.2rem;
+        font-size: 1.3rem;
+    }
+
+    .flex1 li .ilerleme:checked~.kutui {
+        width: 25rem;
+    }
+
+    .flex1 li .ilerleme:checked~.kutui .ilerlemeb1 {
+        width: 5rem;
+    }
+
+    .flex1 .kutus {
+        height: 4rem;
+        top: 15.5rem;
+        left: -17.5rem;
+    }
+
+    .flex1 .kutus h2 {
+        font-size: 1.4rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+
+    .flex1 .kutus p {
+        font-size: 1.2rem;
+        padding-left: 7rem;
+        margin-top: 1.1rem;
+    }
+
+    .flex1 li .seriler:checked~.kutus {
+        width: 25rem;
+    }
+
+    .box1 {
+        width: 40rem;
+        margin-left: 5rem;
+    }
+
+    .box1back {
+        width: 40rem;
+        margin-left: 5rem;
+    }
+
+    .box1back label {
+        margin: 2rem .7rem;
+    }
+
+    #hedef {
+        width: 20rem;
+    }
+
+    #hedef2 {
+        width: 20rem;
+    }
+
+    #hedef3 {
+        width: 20rem;
+    }
+
+    .box2 {
+        height: 26rem;
+        width: 40rem;
+        margin-left: 5rem;
+    }
+
+    .box2back {
+        width: 40rem;
+        margin-left: 5rem;
+    }
+
+    .bar {
+        width: 15rem;
+    }
+
+    .yuzde1 {
+        font-size: 1.6rem;
+        margin-left: 1.5rem;
+        display: inline-block;
+        width: auto;
+    }
+
+    .bar2 {
+        width: 15rem;
+    }
+
+    .yuzde2 {
+        font-size: 1.6rem;
+        width: auto;
+    }
+
+    .bar3 {
+        width: 15rem;
+    }
+
+    .yuzde3 {
+        font-size: 1.6rem;
+        width: auto;
+    }
+
+    .hedef4 {
+        font-size: 1.4rem;
+        font-weight: 500;
+        margin-left: 1rem;
+        display: inline-block;
+        padding: 2.1rem 0;
+    }
+
+    .bar4 {
+        height: 1.3rem;
+        width: 15rem;
+        display: inline-block;
+        margin-left: .5rem;
+        border-radius: 2rem;
+    }
+
+    .barbar4 {
+        left: 12.2rem;
+        top: 21.9rem;
+    }
+
+    .ilerlefot {
+        margin-top: 2.9rem;
+    }
+
+    .yuzde4 {
+        font-size: 1.5rem;
+        margin-left: 1rem;
+        display: inline-block;
+        width: auto;
+    }
+
+    .görev1:checked~.box2back .barbar {
+        width: 12rem;
+    }
+
+    .görev1:checked~.box2back .barbar2 {
+        width: 9rem;
+    }
+
+    .görev1:checked~.box2back .barbar3 {
+        width: 5rem;
+    }
+
+    .görev1:checked~.box2back .barbar4 {
+        width: 9.5rem;
+    }
+
+    .box3 {
+        width: 40rem;
+        margin-left: 5rem;
+    }
+
+    .box3back {
+        width: 40rem;
+        margin-left: 5rem;
+    }
+
+    .box3back .pngyazı2 {
+        visibility: hidden;
+    }
+
+    .box3back .pngyazı3 {
+        visibility: hidden;
+    }
+
+    .box3back .pngyazı4 {
+        visibility: hidden;
+    }
+
+    .box3back .png .png1 {
+        top: 13rem;
+        left: 6rem;
+    }
+
+    .box3back .png .pngyazı {
+        font-size: 4rem;
+        left: 9rem;
+        font-weight: 700;
+        top: 16.3rem;
+    }
+
+    .box3back .png2 {
+        visibility: hidden;
+    }
+}
+
+@media(max-width:710px) {
+    .sag .boxlogo1 {
+        left: 58%;
+    }
+
+    .box1 {
+        width: 35rem;
+        margin-left: 1.5rem;
+    }
+
+    .box1back {
+        width: 35rem;
+        margin-left: 1.5rem;
+    }
+
+    .box1back label {
+        margin: 2rem .4rem;
+    }
+
+    #hedef {
+        width: 20rem;
+    }
+
+    #hedef2 {
+        width: 20rem;
+    }
+
+    #hedef3 {
+        width: 20rem;
+    }
+
+    .box2 {
+        height: 26rem;
+        width: 35rem;
+        margin-left: 1.5rem;
+    }
+
+    .box2back {
+        width: 35rem;
+        margin-left: 1.5rem;
+    }
+
+    .bar {
+        width: 20rem;
+    }
+
+    .yuzde1 {
+        display: none;
+    }
+
+    .yuzde15 {
+        display: inline-block;
+        font-size: 1.6rem;
+        width: auto;
+    }
+
+    .bar2 {
+        width: 20rem;
+    }
+
+    .yuzde2 {
+        display: none;
+    }
+
+    .yuzde25 {
+        display: inline-block;
+        font-size: 1.6rem;
+        width: auto;
+    }
+
+    .bar3 {
+        width: 20rem;
+    }
+
+    .yuzde3 {
+        display: none;
+    }
+
+    .yuzde35 {
+        display: inline-block;
+        font-size: 1.6rem;
+        width: auto;
+    }
+
+
+    .hedef4 {
+        font-size: 1.4rem;
+        font-weight: 500;
+        margin-left: 1rem;
+        display: inline-block;
+        padding: 2.1rem 0;
+
+    }
+
+    .bar4 {
+        height: 1.3rem;
+        width: 17.5rem;
+        margin-left: .5rem;
+        border-radius: 2rem;
+    }
+
+    .barbar4 {
+        left: 12.2rem;
+        top: 22.1rem;
+    }
+
+    .ilerlefot {
+        margin-top: 2.9rem;
+    }
+
+    .yuzde4 {
+        display: none;
+    }
+
+    .yuzde45 {
+        display: inline-block;
+        font-size: 1.6rem;
+        width: auto;
+    }
+
+    .görev1:checked~.box2back .barbar {
+        width: 18rem;
+    }
+
+    .görev1:checked~.box2back .barbar2 {
+        width: 11rem;
+    }
+
+    .görev1:checked~.box2back .barbar3 {
+        width: 5rem;
+    }
+
+    .görev1:checked~.box2back .barbar4 {
+        width: 11rem;
+    }
+
+    .box3 {
+        width: 35rem;
+        margin-left: 1.5rem;
+    }
+
+    .box3back {
+        width: 35rem;
+        margin-left: 1.5rem;
+    }
+
+    .box3back .png .png1 {
+        top: 13rem;
+        left: 4.6rem;
+    }
+
+    .box3back .png .pngyazı {
+        font-size: 4rem;
+        left: 7.6rem;
+        font-weight: 700;
+        top: 16.3rem;
+    }
+
+}
+
+@media(max-width:670px) {
+    .flex1 ul {
+        gap: 3rem;
+        left: 12rem;
+    }
+
+    .flex1 .kutuh {
+        height: 4rem;
+        top: 5rem;
+        left: -12rem;
+    }
+
+    .flex1 .kutuh h2 {
+        font-size: 1.4rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+
+    .flex1 .kutuh p {
+        font-size: 1.2rem;
+        padding-left: 10rem;
+        margin-top: .5rem;
+    }
+
+    /*hedefler checkbox başlangıç*/
+    .flex1 li .hedefler:checked~.kutuh {
+        width: 19rem;
+    }
+
+    .flex1 .kutui {
+        height: 4rem;
+        width: 0;
+        top: 10.3rem;
+        left: -12rem;
+        border-radius: 1rem;
+    }
+
+    .flex1 .kutui h2 {
+        font-size: 1.3rem;
+        padding-left: .7rem;
+        padding-top: 1rem;
+    }
+
+    .flex1 .kutui .ilerlemeb {
+        height: 1.5rem;
+        width: 8rem;
+        left: 11rem;
+        top: 1.3rem;
+    }
+
+    .flex1 .kutui .ilerlemeb1 {
+        height: 1.5rem;
+        left: 10.9rem;
+        top: 1.3rem;
+    }
+
+    .flex1 .kutui .ilerlemeb2 {
+        right: 4.3rem;
+        top: 1.2rem;
+        font-size: 1.3rem;
+        color: var(--beyaz);
+    }
+
+    .flex1 li .ilerleme:checked~.kutui {
+        width: 19rem;
+    }
+
+    .flex1 li .ilerleme:checked~.kutui .ilerlemeb1 {
+        width: 5rem;
+    }
+
+    .flex1 .kutus {
+        height: 4rem;
+        top: 15.5rem;
+        left: -12rem;
+    }
+
+    .flex1 .kutus h2 {
+        font-size: 1.4rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+
+    .flex1 .kutus p {
+        font-size: 1.2rem;
+        padding-left: 7rem;
+        margin-top: .6rem;
+    }
+
+    .flex1 li .seriler:checked~.kutus {
+        width: 19rem;
+    }
+}
+
+@media(max-width:628px) {
+    .container .h1 {
+        margin: 0;
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .container .h2 {
+        margin: 0;
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .container p {
+        font-size: 1.3rem;
+        margin-top: 2rem;
+        letter-spacing: 0;
+
+    }
+
+    .container .button {
+        bottom: 30.5rem;
+        left: 2rem;
+    }
+}
+
+@media(max-width:580px) {
+
+    .box1 {
+        width: 30rem;
+        margin-left: 1.5rem;
+    }
+
+    .box1back {
+        width: 30rem;
+        margin-left: 1.5rem;
+    }
+
+    .box1back label {
+        margin: 2rem 0;
+    }
+
+    #hedef {
+        width: 16rem;
+    }
+
+    #hedef2 {
+        width: 16rem;
+    }
+
+    #hedef3 {
+        width: 16rem;
+    }
+
+    .kaydet {
+        padding: .5rem 1.5rem;
+        bottom: 2.3rem;
+        right: 2rem;
+    }
+
+    .box2 {
+        height: 26rem;
+        width: 30rem;
+        margin-left: 1.5rem;
+    }
+
+    .box2back {
+        width: 30rem;
+        margin-left: 1.5rem;
+    }
+
+    .bar {
+        width: 15rem;
+    }
+
+    .yuzde1 {
+        display: none;
+    }
+
+    .bar2 {
+        width: 15rem;
+    }
+
+    .yuzde2 {
+        display: none;
+    }
+
+    .yuzde15 {
+        display: inline-block;
+        font-size: 1.6rem;
+        width: auto;
+    }
+
+    .yuzde25 {
+        display: inline-block;
+        font-size: 1.6rem;
+        width: auto;
+    }
+
+    .yuzde35 {
+        display: inline-block;
+        font-size: 1.6rem;
+        width: auto;
+    }
+
+    .yuzde45 {
+        display: inline-block;
+        font-size: 1.6rem;
+        width: auto;
+    }
+
+    .bar3 {
+        width: 15rem;
+    }
+
+    .yuzde3 {
+        display: none;
+    }
+
+    .hedef4 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin-left: 1rem;
+        display: inline-block;
+        padding: 2.1rem 0;
+    }
+
+    .bar4 {
+        height: 1.3rem;
+        width: 12.5rem;
+        margin-left: .5rem;
+        border-radius: 2rem;
+    }
+
+    .barbar4 {
+        left: 11.6rem;
+        top: 22.2rem;
+    }
+
+    .ilerlefot {
+        margin-top: 3.1rem;
+    }
+
+    .yuzde4 {
+        display: none;
+    }
+
+    .görev1:checked~.box2back .barbar {
+        width: 13rem;
+    }
+
+    .görev1:checked~.box2back .barbar2 {
+        width: 8.5rem;
+    }
+
+    .görev1:checked~.box2back .barbar3 {
+        width: 4rem;
+    }
+
+    .görev1:checked~.box2back .barbar4 {
+        width: 8rem;
+    }
+
+    .box3 {
+
+        width: 30rem;
+        margin-left: 1.5rem;
+    }
+
+    .box3back {
+
+        width: 30rem;
+        margin-left: 1.5rem;
+    }
+
+    .box3back .png .png1 {
+        top: 13rem;
+        left: 3.6rem;
+    }
+
+    .box3back .png .pngyazı {
+        font-size: 4rem;
+        position: absolute;
+        left: 6.6rem;
+        top: 16.3rem;
+    }
+}
+
+@media(max-width:527px) {
+    .container .h1 {
+        margin: 0;
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+
+    .container .h2 {
+        margin: 0;
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+
+    .container p {
+        font-size: 1.1rem;
+
+        margin-top: 2rem;
+        letter-spacing: 0;
+
+    }
+
+    .container .button {
+        bottom: 30.5rem;
+        left: 2rem;
+    }
+
+    .flex1 #acc {
+        position: absolute;
+        top: 14rem;
+        z-index: 99;
+        display: none;
+        right: .5rem;
+    }
+
+    .flex1 #men {
+        right: 1.3rem;
+        display: flex;
+    }
+
+    .flex1 #not {
+        position: absolute;
+        top: 7.7rem;
+        z-index: 99;
+        display: none;
+        right: 0.5rem;
+    }
+
+    .flex1 .not {
+        top: 6rem;
+        height: 25.4vh;
+    }
+
+    .noth {
+        font-size: 2rem;
+        right: 4.5rem;
+        top: 8rem;
+    }
+
+    .flex1 .profil2:checked~.not {
+        width: 15rem;
+        border: none, ;
+    }
+
+    .notp {
+        font-size: 1.3rem;
+        right: 1rem;
+        top: 20rem;
+    }
+}
+
+@media(max-width:500px) {
+    .sag .boxlogo1 {
+        left: 56%;
+    }
+
+    .kayıt {
+        height: 35rem;
+        width: 35rem;
+        top: 25rem;
+        background-position: 1rem 1rem;
+        background-size: 7rem
+    }
+
+    .kayıt input {
+        height: 4.5rem;
+        width: 30rem;
+        margin: 0 2.5rem;
+    }
+
+    .kayıt .text {
+        margin-top: 8rem;
+        margin-bottom: 1rem;
+    }
+
+    .kayıt .email {
+        margin-bottom: 1rem;
+    }
+
+    .kayıt h2 {
+        font-size: 3rem;
+        top: 3rem;
+        left: 30%;
+    }
+
+    #label {
+        font-size: 2rem;
+        padding: 1.3rem 3rem;
+        top: 50.5rem;
+        left: 39%;
+    }
+
+    .kayıt label {
+        top: 32.2rem;
+        left: 23.1rem;
+        width: 6rem;
+    }
+
+    .kayıt span {
+        top: 32.2rem;
+        left: 7rem;
+    }
+
+    #giris:checked~.email {
+        margin-top: 10rem;
+        margin-bottom: 3rem;
+    }
+
+    .flex1 .kutuh {
+        height: 2.5rem;
+        top: 5rem;
+        left: -8.5rem;
+    }
+
+    .flex1 .kutuh h2 {
+        font-size: 1.4rem;
+        padding-left: 1rem;
+        padding-top: .3rem;
+    }
+
+    .flex1 .kutuh p {
+        font-size: 1.2rem;
+        padding-left: 16rem;
+        margin-top: .5rem;
+    }
+
+    .flex1 li .hedefler:checked~.kutuh {
+        width: 35rem;
+    }
+
+    .flex1 .kutui {
+        height: 2.5rem;
+        width: 0;
+        top: 8.6rem;
+        left: -8.5rem;
+        border-radius: 1rem;
+    }
+
+    .flex1 .kutui h2 {
+        font-size: 1.3rem;
+        padding-left: .7rem;
+        padding-top: .3rem;
+    }
+
+    .flex1 .kutui .ilerlemeb {
+        height: 1.5rem;
+        width: 21rem;
+        left: 12rem;
+        top: .6rem;
+    }
+
+    .flex1 .kutui .ilerlemeb1 {
+        height: 1.5rem;
+        left: 11.9rem;
+        top: .6rem;
+    }
+
+    .flex1 .kutui .ilerlemeb2 {
+        right: 6rem;
+        top: .4rem;
+        font-size: 1.3rem;
+    }
+
+    .flex1 li .ilerleme:checked~.kutui {
+        width: 35rem;
+    }
+
+    .flex1 li .ilerleme:checked~.kutui .ilerlemeb1 {
+        width: 12rem;
+    }
+
+    .flex1 .kutus {
+        height: 2.5rem;
+        top: 12.1rem;
+        left: -8.5rem;
+    }
+
+    .flex1 .kutus h2 {
+        font-size: 1.4rem;
+        padding-left: 1rem;
+        padding-top: .3rem;
+    }
+
+    .flex1 .kutus p {
+        font-size: 1.2rem;
+        padding-left: 15rem;
+        margin-top: .5rem;
+    }
+
+    .flex1 li .seriler:checked~.kutus {
+        width: 35rem;
+    }
+
+    .sol {
+        display: block;
+        height: 40rem;
+        max-width: 100vw;
+        width: 100%;
+        padding: 16rem 0 0 2.3rem;
+        margin-top: -6rem;
+        border-width: 0 0 2px 0;
+        border-style: solid;
+        box-shadow: 0 0 0 transparent;
+    }
+
+    .container .h1 {
+        font-size: 4.7rem;
+        font-weight: 700;
+    }
+
+    .container .h2 {
+        margin-top: 0;
+        font-size: 5rem;
+        font-weight: 700;
+    }
+
+    .container p {
+        font-size: 1.6rem;
+        margin-top: .5rem;
+        letter-spacing: .1rem;
+        margin-bottom: 3rem;
+    }
+
+    .container .button {
+        height: 4rem;
+        width: 11rem;
+        padding-top: .7rem;
+        padding-left: .6rem;
+        top: 32.6rem;
+        left: 2rem;
+    }
+
+    .container {
+        display: block;
+        width: 100%;
+        height: 100%;
+        max-height: 35vh;
+    }
+
+    .box1 {
+        width: 45rem;
+        margin-left: 1rem;
+    }
+
+    .box1back {
+        width: 45rem;
+        margin-left: 1rem;
+    }
+
+    .box1back label {
+        margin: 2rem 1.1rem;
+    }
+
+    #hedef {
+        width: 30rem;
+    }
+
+    #hedef2 {
+        width: 30rem;
+    }
+
+    #hedef3 {
+        width: 30rem;
+    }
+
+    .box2 {
+        height: 26rem;
+        width: 45rem;
+        margin-left: 1rem;
+    }
+
+    .box2back {
+        width: 45rem;
+        margin-left: 1rem;
+    }
+
+    .bar {
+        width: 20rem;
+    }
+
+    .yuzde1 {
+        font-size: 1.6rem;
+        margin-left: 1.5rem;
+        display: inline-block;
+        width: auto;
+    }
+
+    .bar2 {
+        width: 20rem;
+    }
+
+    .yuzde2 {
+        display: inline-block;
+        font-size: 1.6rem;
+        width: auto;
+    }
+
+    .bar3 {
+        width: 20rem;
+    }
+
+    .yuzde3 {
+        display: inline-block;
+        font-size: 1.6rem;
+        width: auto;
+    }
+
+    .hedef4 {
+        font-size: 1.7rem;
+        font-weight: 500;
+        margin-left: 1rem;
+        display: inline-block;
+        padding: 2.1rem 0;
+    }
+
+    .bar4 {
+        height: 1.5rem;
+        width: 18.3rem;
+        display: inline-block;
+        margin-left: .5rem;
+        border-radius: 2rem;
+    }
+
+    .barbar4 {
+        left: 14.6rem;
+        top: 22.5rem;
+    }
+
+    .yuzde4 {
+        font-size: 1.5rem;
+        margin-left: .5rem;
+        display: inline-block;
+        width: auto;
+    }
+
+    .yuzde15 {
+        display: none;
+
+    }
+
+    .yuzde25 {
+        display: none;
+    }
+
+    .yuzde35 {
+        display: none;
+    }
+
+    .yuzde45 {
+        display: none;
+    }
+
+    .görev1:checked~.box2back .barbar {
+        width: 17rem;
+    }
+
+    .görev1:checked~.box2back .barbar2 {
+        width: 11rem;
+    }
+
+    .görev1:checked~.box2back .barbar3 {
+        width: 6rem;
+    }
+
+    .görev1:checked~.box2back .barbar4 {
+        width: 11rem;
+
+    }
+
+    .box3 {
+
+        width: 45rem;
+        margin-left: 1rem;
+    }
+
+    .box3back {
+
+        width: 45rem;
+        margin-left: 1rem;
+    }
+
+    .box3back .png .png1 {
+        top: 13rem;
+        left: 7rem;
+    }
+
+    .box3back .png .pngyazı {
+        font-size: 4rem;
+        left: 10rem;
+        top: 16.3rem;
+    }
+
+    .sag .container2 {
+        grid-template-rows: 0fr 0fr 0fr;
+        gap: 1rem;
+        perspective: 2000px;
+
+    }
+}
+
+@media(max-width:473px) {
+    .sol {
+        height: 40rem;
+    }
+
+    .sag .boxlogo1 {
+        left: 58%;
+    }
+
+    .flex1 ul {
+        gap: 1.5rem;
+        left: 11rem;
+    }
+
+    .container .h1 {
+        font-size: 4rem;
+        font-weight: 700;
+    }
+
+    .container .h2 {
+        margin-top: 1.5rem;
+        font-size: 4rem;
+        font-weight: 700;
+    }
+
+    .container p {
+        font-size: 1.3rem;
+        margin-top: 1rem;
+        letter-spacing: .1rem;
+        margin-bottom: 3rem;
+    }
+
+    .container .button {
+        height: 4rem;
+        width: 11rem;
+        padding-top: .7rem;
+        padding-left: .6rem;
+        top: 31.5rem;
+        left: 2rem;
+    }
+
+    .box1 {
+        width: 35rem;
+        margin-left: 10%;
+    }
+
+    .box1back {
+        width: 35rem;
+        margin-left: 10%;
+    }
+
+    .box1back label {
+        margin: 2rem .4rem;
+    }
+
+    #hedef {
+        width: 20rem;
+    }
+
+    #hedef2 {
+        width: 20rem;
+    }
+
+    #hedef3 {
+        width: 20rem;
+    }
+
+    .box2 {
+        height: 26rem;
+        width: 35rem;
+        margin-left: 10%;
+    }
+
+    .box2back {
+        width: 35rem;
+        margin-left: 10%;
+    }
+
+    .bar {
+        width: 20rem;
+    }
+
+    .yuzde1 {
+        display: none;
+    }
+
+    .yuzde15 {
+        display: inline-block;
+        font-size: 1.6rem;
+        width: auto;
+    }
+
+    .bar2 {
+        width: 20rem;
+    }
+
+    .yuzde2 {
+        display: none;
+    }
+
+    .yuzde25 {
+        display: inline-block;
+        font-size: 1.6rem;
+        width: auto;
+    }
+
+    .bar3 {
+        width: 20rem;
+    }
+
+    .yuzde3 {
+        display: none;
+    }
+
+    .yuzde35 {
+        display: inline-block;
+        font-size: 1.6rem;
+        width: auto;
+    }
+
+    .hedef4 {
+        font-size: 1.4rem;
+        font-weight: 500;
+        margin-left: 1rem;
+        display: inline-block;
+        padding: 2.1rem 0;
+    }
+
+    .bar4 {
+        height: 1.3rem;
+        width: 17.5rem;
+        margin-left: .5rem;
+        border-radius: 2rem;
+    }
+
+    .barbar4 {
+        left: 12.2rem;
+        top: 22.1rem;
+    }
+
+    .ilerlefot {
+        margin-top: 2.9rem;
+    }
+
+    .yuzde4 {
+        display: none;
+    }
+
+    .yuzde45 {
+        display: inline-block;
+        font-size: 1.6rem;
+        width: auto;
+    }
+
+    .görev1:checked~.box2back .barbar {
+        width: 18rem;
+    }
+
+    .görev1:checked~.box2back .barbar2 {
+        width: 11rem;
+    }
+
+    .görev1:checked~.box2back .barbar3 {
+        width: 5rem;
+    }
+
+    .görev1:checked~.box2back .barbar4 {
+        width: 11rem;
+    }
+
+    .box3 {
+
+        width: 35rem;
+        margin-left: 10%;
+    }
+
+    .box3back {
+
+        width: 35rem;
+        margin-left: 10%;
+    }
+
+    .box3back .png .png1 {
+        top: 13rem;
+        left: 4.6rem;
+    }
+
+    .box3back .png .pngyazı {
+        font-size: 4rem;
+        left: 7.6rem;
+        font-weight: 700;
+        top: 16.3rem;
+    }
+
+}
+
+@media(max-width:408px) {
+    .kayıt {
+        height: 35rem;
+        width: 35rem;
+        top: 20rem;
+        background-position: 1rem 1rem;
+        background-size: 7rem
+    }
+
+    #label {
+        font-size: 2rem;
+        padding: 1.3rem 3rem;
+        top: 45.5rem;
+        left: 39%;
+    }
+
+    .container .h1 {
+        color: var(--ikinci-renk);
+        font-size: 3.5rem;
+        font-weight: 700;
+    }
+
+    .container .h2 {
+        margin-top: 1.5rem;
+        color: var(--ikinci-renk);
+        font-size: 3.5rem;
+        font-weight: 700;
+    }
+
+    .box1 {
+        width: 35rem;
+        margin-left: 4%;
+    }
+
+    .box1back {
+        width: 35rem;
+        margin-left: 4%;
+    }
+
+    .box2 {
+        width: 35rem;
+        margin-left: 4%;
+    }
+
+    .box2back {
+        width: 35rem;
+        margin-left: 4%;
+    }
+
+    .box3 {
+        width: 35rem;
+        margin-left: 4%;
+    }
+
+    .box3back {
+        width: 35rem;
+        margin-left: 4%;
+    }
+
+    .flex1 ul {
+        gap: .6rem;
+        left: 9rem;
+    }
+}
+
+@media (max-height:500px) {
+    .sol {
+        height: 190vh;
+    }
+
+    .container .button {
+        top: 50rem;
+    }
+
+}
+
+@media (max-height:460px) {
+    .sol {
+        height: 210vh;
+    }
+
+    .container .button {
+        top: 50rem;
+    }
+
+    .kayıt {
+        height: 28rem;
+        width: 35rem;
+        top: 8rem;
+        background-position: 1rem 1rem;
+        background-size: 7rem
+    }
+
+    .kayıt input {
+        height: 4rem;
+        width: 30rem;
+        margin: 0 2.5rem;
+    }
+
+    .kayıt .text {
+        margin-top: 7rem;
+        margin-bottom: 1rem;
+    }
+
+    .kayıt .email {
+        margin-bottom: 1rem;
+    }
+
+    .kayıt h2 {
+        font-size: 3rem;
+        top: 2rem;
+        left: 30%;
+    }
+
+    #label {
+        font-size: 2rem;
+        padding: .4rem 3rem;
+        top: 30rem;
+        left: 44%;
+    }
+
+    .kayıt label {
+        top: 25.8rem;
+        left: 23.1rem;
+        width: 6rem;
+    }
+
+    .kayıt span {
+        top: 25.9rem;
+        left: 7rem;
+    }
+
+    #giris:checked~.email {
+        margin-top: 8rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-height:412px) {
+    .sol {
+        height: 230vh;
+    }
+
+    .container .button {
+        top: 50rem;
+    }
+
+    .kayıt {
+        height: 28rem;
+        width: 35rem;
+        top: 8rem;
+        background-position: 1rem 1rem;
+        background-size: 7rem
+    }
+
+    .kayıt input {
+        height: 4rem;
+        width: 30rem;
+        margin: 0 2.5rem;
+    }
+
+    .kayıt .text {
+        margin-top: 7rem;
+        margin-bottom: 1rem;
+    }
+
+    .kayıt .email {
+        margin-bottom: 1rem;
+    }
+
+    .kayıt h2 {
+        font-size: 3rem;
+        top: 2rem;
+        left: 30%;
+    }
+
+    #label {
+        font-size: 2rem;
+        padding: .4rem 3rem;
+        top: 30rem;
+        left: 44%;
+    }
+
+    .kayıt label {
+        top: 25.8rem;
+        left: 23.1rem;
+        width: 6rem;
+    }
+
+    .kayıt span {
+        top: 25.9rem;
+        left: 7rem;
+    }
+
+    #giris:checked~.email {
+        margin-top: 8rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-height:375px) {
+    .sol {
+        height: 250vh;
+    }
+
+    .container .button {
+        top: 50rem;
+    }
+
+    .kayıt {
+        height: 28rem;
+        width: 35rem;
+        top: 8rem;
+        background-position: 1rem 1rem;
+        background-size: 7rem
+    }
+
+    .kayıt input {
+        height: 4rem;
+        width: 30rem;
+        margin: 0 2.5rem;
+    }
+
+    .kayıt .text {
+        margin-top: 7rem;
+        margin-bottom: 1rem;
+    }
+
+    .kayıt .email {
+        margin-bottom: 1rem;
+    }
+
+    .kayıt h2 {
+        font-size: 3rem;
+        top: 2rem;
+        left: 30%;
+    }
+
+    #label {
+        font-size: 2rem;
+        padding: .4rem 3rem;
+        top: 30rem;
+        left: 44%;
+    }
+
+    .kayıt label {
+        top: 25.8rem;
+        left: 23.1rem;
+        width: 6rem;
+    }
+
+    .kayıt span {
+        top: 25.9rem;
+        left: 7rem;
+    }
+
+    #giris:checked~.email {
+        margin-top: 8rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-height:346px) {
+    .sol {
+        height: 290vh;
+    }
+
+    .container .button {
+        top: 50rem;
+    }
+
+    .kayıt {
+        height: 28rem;
+        width: 35rem;
+        top: 8rem;
+        background-position: 1rem 1rem;
+        background-size: 7rem
+    }
+
+    .kayıt input {
+        height: 4rem;
+        width: 30rem;
+        margin: 0 2.5rem;
+    }
+
+    .kayıt .text {
+        margin-top: 7rem;
+        margin-bottom: 1rem;
+    }
+
+    .kayıt .email {
+        margin-bottom: 1rem;
+    }
+
+    .kayıt h2 {
+        font-size: 3rem;
+        top: 2rem;
+        left: 30%;
+    }
+
+    #label {
+        font-size: 2rem;
+        padding: .4rem 3rem;
+        top: 30rem;
+        left: 43%;
+    }
+
+    .kayıt label {
+        top: 25.8rem;
+        left: 23.1rem;
+        width: 6rem;
+    }
+
+    .kayıt span {
+        top: 25.9rem;
+        left: 7rem;
+    }
+
+    #giris:checked~.email {
+        margin-top: 8rem;
+        margin-bottom: 3rem;
+    }
+}
